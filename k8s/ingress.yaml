@@ -2,6 +2,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: tic-tac-toe-ingress
+  namespace: devsecops
   annotations:
     kubernetes.io/ingress.class: nginx
     # Add additional annotations as needed for your specific ingress controller
